@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nerdware</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark">
+  <header>
+  <div class="logo-container">
+    <img src="assets/logo.png" alt="Logo Nerdware" class="logo-img" />
+    <h1 class="titulo-site">Nerdware</h1>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Categorias</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+  <div class="theme-toggle">
+    <button id="toggle-theme">☀️</button>
+    <span id="theme-label">Tema claro</span>
+  </div>
+  <div class="carrinho-topo">
+    🛒 <span id="contador-carrinho">0</span>
+  </div>
+</header>
+  <main class="conteudo">
+    <aside class="categorias-lateral">
+      <h3>Categorias</h3>
+      <ul>
+        <li>Monitores</li>
+        <li>Teclados</li>
+        <li>Mouses</li>
+        <li>Headsets</li>
+        <li>Cadeiras Gamer</li>
+        <li>Microfones</li>
+        <li>Placas de Vídeo</li>
+        <li>Coolers e Refrigeração</li>
+        <li>Fontes e Cabos</li>
+        <li>Armazenamento</li>
+      </ul>
+    </aside>
+
+    <section class="produtos">
+      <h3>Produtos em Destaque</h3>
+      <div class="grid" id="produtos-container"></div>
+    </section>
+  </main>
+
+  <div class="painel-carrinho" id="painel-carrinho">
+    <h3>Seu Carrinho</h3>
+    <ul id="lista-carrinho"></ul>
+    <button onclick="salvarCarrinho()">Salvar No Carrinho</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Nerdware</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
