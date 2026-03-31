@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+}
+
+header a {
+  color: #00bcd4;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+main {
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+}
+
+.product {
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea, button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+button {
+  background-color: #00bcd4;
+  cursor: pointer;
+}
